@@ -1,0 +1,1373 @@
+asdf
+[Sat Jun 20 14:30:21.127422 2015] [:error] [pid 23344] [remote 127.0.0.1:11959] Traceback (most recent call last):
+[Sat Jun 20 14:30:21.127516 2015] [:error] [pid 23344] [remote 127.0.0.1:11959]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Sat Jun 20 14:30:21.127530 2015] [:error] [pid 23344] [remote 127.0.0.1:11959]     return self.handle()
+[Sat Jun 20 14:30:21.127540 2015] [:error] [pid 23344] [remote 127.0.0.1:11959]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Sat Jun 20 14:30:21.127551 2015] [:error] [pid 23344] [remote 127.0.0.1:11959]     return self._delegate(fn, self.fvars, args)
+[Sat Jun 20 14:30:21.127561 2015] [:error] [pid 23344] [remote 127.0.0.1:11959]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Sat Jun 20 14:30:21.127573 2015] [:error] [pid 23344] [remote 127.0.0.1:11959]     return handle_class(cls)
+[Sat Jun 20 14:30:21.127583 2015] [:error] [pid 23344] [remote 127.0.0.1:11959]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Sat Jun 20 14:30:21.127590 2015] [:error] [pid 23344] [remote 127.0.0.1:11959]     return tocall(*args)
+[Sat Jun 20 14:30:21.127597 2015] [:error] [pid 23344] [remote 127.0.0.1:11959]   File "/var/www/sipadu_manajer/notification.py", line 14, in POST
+[Sat Jun 20 14:30:21.127604 2015] [:error] [pid 23344] [remote 127.0.0.1:11959]     return self.get_notif()
+[Sat Jun 20 14:30:21.127612 2015] [:error] [pid 23344] [remote 127.0.0.1:11959]   File "/var/www/sipadu_manajer/notification.py", line 26, in get_notif
+[Sat Jun 20 14:30:21.127619 2015] [:error] [pid 23344] [remote 127.0.0.1:11959]     result = result[0]
+[Sat Jun 20 14:30:21.127626 2015] [:error] [pid 23344] [remote 127.0.0.1:11959] TypeError: 'NoneType' object has no attribute '__getitem__'
+[Sat Jun 20 14:30:21.127644 2015] [:error] [pid 23344] [remote 127.0.0.1:11959] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Sun Jun 21 18:18:26.993772 2015] [:error] [pid 10889] [remote 127.0.0.1:14519] Traceback (most recent call last):
+[Sun Jun 21 18:18:26.993852 2015] [:error] [pid 10889] [remote 127.0.0.1:14519]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Sun Jun 21 18:18:26.993877 2015] [:error] [pid 10889] [remote 127.0.0.1:14519]     return self.handle()
+[Sun Jun 21 18:18:26.993883 2015] [:error] [pid 10889] [remote 127.0.0.1:14519]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Sun Jun 21 18:18:26.993890 2015] [:error] [pid 10889] [remote 127.0.0.1:14519]     return self._delegate(fn, self.fvars, args)
+[Sun Jun 21 18:18:26.993896 2015] [:error] [pid 10889] [remote 127.0.0.1:14519]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Sun Jun 21 18:18:26.993902 2015] [:error] [pid 10889] [remote 127.0.0.1:14519]     return handle_class(cls)
+[Sun Jun 21 18:18:26.993908 2015] [:error] [pid 10889] [remote 127.0.0.1:14519]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Sun Jun 21 18:18:26.993914 2015] [:error] [pid 10889] [remote 127.0.0.1:14519]     return tocall(*args)
+[Sun Jun 21 18:18:26.993920 2015] [:error] [pid 10889] [remote 127.0.0.1:14519]   File "/var/www/sipadu_manajer/notification.py", line 14, in POST
+[Sun Jun 21 18:18:26.993926 2015] [:error] [pid 10889] [remote 127.0.0.1:14519]     return self.get_notif()
+[Sun Jun 21 18:18:26.993932 2015] [:error] [pid 10889] [remote 127.0.0.1:14519]   File "/var/www/sipadu_manajer/notification.py", line 26, in get_notif
+[Sun Jun 21 18:18:26.993938 2015] [:error] [pid 10889] [remote 127.0.0.1:14519]     result = result[0]
+[Sun Jun 21 18:18:26.993943 2015] [:error] [pid 10889] [remote 127.0.0.1:14519] TypeError: 'NoneType' object has no attribute '__getitem__'
+[Sun Jun 21 18:18:26.993958 2015] [:error] [pid 10889] [remote 127.0.0.1:14519] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Mon Jun 22 09:21:55.128937 2015] [core:error] [pid 4324] [client 127.0.0.1:49191] End of script output before headers: index.py
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Thu Jul 02 10:23:36.908358 2015] [:error] [pid 27844] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+[Thu Jul 02 10:23:36.908449 2015] [:error] [pid 27844] \t\t\torder by waktu desc' at line 4
+[Thu Jul 02 10:23:36.953700 2015] [:error] [pid 27844] [remote 127.0.0.1:13751] Traceback (most recent call last):
+[Thu Jul 02 10:23:36.953747 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Thu Jul 02 10:23:36.953762 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]     return self.handle()
+[Thu Jul 02 10:23:36.953774 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Thu Jul 02 10:23:36.953785 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]     return self._delegate(fn, self.fvars, args)
+[Thu Jul 02 10:23:36.953796 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Thu Jul 02 10:23:36.953808 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]     return handle_class(cls)
+[Thu Jul 02 10:23:36.953819 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Thu Jul 02 10:23:36.953831 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]     return tocall(*args)
+[Thu Jul 02 10:23:36.953842 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]   File "/var/www/sipadu_manajer/sync.py", line 15, in POST
+[Thu Jul 02 10:23:36.953853 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]     return self.get_inbox()
+[Thu Jul 02 10:23:36.953864 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]   File "/var/www/sipadu_manajer/sync.py", line 54, in get_inbox
+[Thu Jul 02 10:23:36.953894 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]     result = model.get_query(query1,(last_msg,))
+[Thu Jul 02 10:23:36.953905 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]   File "/var/www/sipadu_manajer/model.py", line 22, in get_query
+[Thu Jul 02 10:23:36.953915 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]     c.execute(query,data)
+[Thu Jul 02 10:23:36.953925 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]   File "/usr/lib/python2.7/dist-packages/mysql/connector/cursor.py", line 507, in execute
+[Thu Jul 02 10:23:36.953936 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]     self._handle_result(self._connection.cmd_query(stmt))
+[Thu Jul 02 10:23:36.953946 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]   File "/usr/lib/python2.7/dist-packages/mysql/connector/connection.py", line 722, in cmd_query
+[Thu Jul 02 10:23:36.953956 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]     result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+[Thu Jul 02 10:23:36.953966 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]   File "/usr/lib/python2.7/dist-packages/mysql/connector/connection.py", line 640, in _handle_result
+[Thu Jul 02 10:23:36.953977 2015] [:error] [pid 27844] [remote 127.0.0.1:13751]     raise errors.get_exception(packet)
+[Thu Jul 02 10:23:36.953987 2015] [:error] [pid 27844] [remote 127.0.0.1:13751] ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+[Thu Jul 02 10:23:36.953998 2015] [:error] [pid 27844] [remote 127.0.0.1:13751] \t\t\torder by waktu desc' at line 4
+[Thu Jul 02 10:23:36.954032 2015] [:error] [pid 27844] [remote 127.0.0.1:13751] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Thu Jul 02 10:33:40.633395 2015] [:error] [pid 30014] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+[Thu Jul 02 10:33:40.633515 2015] [:error] [pid 30014] \t\t\torder by waktu desc' at line 4
+[Thu Jul 02 10:33:40.753765 2015] [:error] [pid 30014] [remote 127.0.0.1:3510] Traceback (most recent call last):
+[Thu Jul 02 10:33:40.753822 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Thu Jul 02 10:33:40.753837 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]     return self.handle()
+[Thu Jul 02 10:33:40.753849 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Thu Jul 02 10:33:40.753860 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]     return self._delegate(fn, self.fvars, args)
+[Thu Jul 02 10:33:40.753872 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Thu Jul 02 10:33:40.753883 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]     return handle_class(cls)
+[Thu Jul 02 10:33:40.753895 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Thu Jul 02 10:33:40.753906 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]     return tocall(*args)
+[Thu Jul 02 10:33:40.753917 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]   File "/var/www/sipadu_manajer/sync.py", line 15, in POST
+[Thu Jul 02 10:33:40.753928 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]     return self.get_inbox()
+[Thu Jul 02 10:33:40.753939 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]   File "/var/www/sipadu_manajer/sync.py", line 54, in get_inbox
+[Thu Jul 02 10:33:40.753972 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]     result = model.get_query(query1,(last_msg,))
+[Thu Jul 02 10:33:40.753992 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]   File "/var/www/sipadu_manajer/model.py", line 22, in get_query
+[Thu Jul 02 10:33:40.754032 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]     c.execute(query,data)
+[Thu Jul 02 10:33:40.754040 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]   File "/usr/lib/python2.7/dist-packages/mysql/connector/cursor.py", line 507, in execute
+[Thu Jul 02 10:33:40.754046 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]     self._handle_result(self._connection.cmd_query(stmt))
+[Thu Jul 02 10:33:40.754052 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]   File "/usr/lib/python2.7/dist-packages/mysql/connector/connection.py", line 722, in cmd_query
+[Thu Jul 02 10:33:40.754058 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]     result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+[Thu Jul 02 10:33:40.754063 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]   File "/usr/lib/python2.7/dist-packages/mysql/connector/connection.py", line 640, in _handle_result
+[Thu Jul 02 10:33:40.754069 2015] [:error] [pid 30014] [remote 127.0.0.1:3510]     raise errors.get_exception(packet)
+[Thu Jul 02 10:33:40.754075 2015] [:error] [pid 30014] [remote 127.0.0.1:3510] ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+[Thu Jul 02 10:33:40.754081 2015] [:error] [pid 30014] [remote 127.0.0.1:3510] \t\t\torder by waktu desc' at line 4
+[Thu Jul 02 10:33:40.754096 2015] [:error] [pid 30014] [remote 127.0.0.1:3510] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Thu Jul 02 10:34:01.591385 2015] [:error] [pid 30047] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+[Thu Jul 02 10:34:01.591496 2015] [:error] [pid 30047] \t\t\torder by waktu desc' at line 4
+[Thu Jul 02 10:34:01.594913 2015] [:error] [pid 30047] [remote 127.0.0.1:3510] Traceback (most recent call last):
+[Thu Jul 02 10:34:01.594944 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Thu Jul 02 10:34:01.594957 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]     return self.handle()
+[Thu Jul 02 10:34:01.594967 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Thu Jul 02 10:34:01.594978 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]     return self._delegate(fn, self.fvars, args)
+[Thu Jul 02 10:34:01.594988 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Thu Jul 02 10:34:01.594998 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]     return handle_class(cls)
+[Thu Jul 02 10:34:01.595008 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Thu Jul 02 10:34:01.595019 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]     return tocall(*args)
+[Thu Jul 02 10:34:01.595028 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]   File "/var/www/sipadu_manajer/sync.py", line 15, in POST
+[Thu Jul 02 10:34:01.595038 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]     return self.get_inbox()
+[Thu Jul 02 10:34:01.595048 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]   File "/var/www/sipadu_manajer/sync.py", line 54, in get_inbox
+[Thu Jul 02 10:34:01.595058 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]     result = model.get_query(query1,(last_msg,))
+[Thu Jul 02 10:34:01.595068 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]   File "/var/www/sipadu_manajer/model.py", line 22, in get_query
+[Thu Jul 02 10:34:01.595078 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]     c.execute(query,data)
+[Thu Jul 02 10:34:01.595088 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]   File "/usr/lib/python2.7/dist-packages/mysql/connector/cursor.py", line 507, in execute
+[Thu Jul 02 10:34:01.595130 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]     self._handle_result(self._connection.cmd_query(stmt))
+[Thu Jul 02 10:34:01.595163 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]   File "/usr/lib/python2.7/dist-packages/mysql/connector/connection.py", line 722, in cmd_query
+[Thu Jul 02 10:34:01.595170 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]     result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+[Thu Jul 02 10:34:01.595177 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]   File "/usr/lib/python2.7/dist-packages/mysql/connector/connection.py", line 640, in _handle_result
+[Thu Jul 02 10:34:01.595184 2015] [:error] [pid 30047] [remote 127.0.0.1:3510]     raise errors.get_exception(packet)
+[Thu Jul 02 10:34:01.595190 2015] [:error] [pid 30047] [remote 127.0.0.1:3510] ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''
+[Thu Jul 02 10:34:01.595198 2015] [:error] [pid 30047] [remote 127.0.0.1:3510] \t\t\torder by waktu desc' at line 4
+[Thu Jul 02 10:34:01.595214 2015] [:error] [pid 30047] [remote 127.0.0.1:3510] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Thu Jul 02 10:36:06.474097 2015] [:error] [pid 30156] 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL
+[Thu Jul 02 10:36:06.474227 2015] [:error] [pid 30156] \t\t\torder by waktu desc' at line 4
+[Thu Jul 02 10:36:06.477515 2015] [:error] [pid 30156] [remote 127.0.0.1:3510] Traceback (most recent call last):
+[Thu Jul 02 10:36:06.477555 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Thu Jul 02 10:36:06.477572 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]     return self.handle()
+[Thu Jul 02 10:36:06.477586 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Thu Jul 02 10:36:06.477600 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]     return self._delegate(fn, self.fvars, args)
+[Thu Jul 02 10:36:06.477614 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Thu Jul 02 10:36:06.477628 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]     return handle_class(cls)
+[Thu Jul 02 10:36:06.477641 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Thu Jul 02 10:36:06.477655 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]     return tocall(*args)
+[Thu Jul 02 10:36:06.477669 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]   File "/var/www/sipadu_manajer/sync.py", line 15, in POST
+[Thu Jul 02 10:36:06.477682 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]     return self.get_inbox()
+[Thu Jul 02 10:36:06.477695 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]   File "/var/www/sipadu_manajer/sync.py", line 54, in get_inbox
+[Thu Jul 02 10:36:06.477709 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]     result = model.get_query(query1,(last_msg,))
+[Thu Jul 02 10:36:06.477722 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]   File "/var/www/sipadu_manajer/model.py", line 22, in get_query
+[Thu Jul 02 10:36:06.477735 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]     c.execute(query,data)
+[Thu Jul 02 10:36:06.477748 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]   File "/usr/lib/python2.7/dist-packages/mysql/connector/cursor.py", line 507, in execute
+[Thu Jul 02 10:36:06.477762 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]     self._handle_result(self._connection.cmd_query(stmt))
+[Thu Jul 02 10:36:06.477776 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]   File "/usr/lib/python2.7/dist-packages/mysql/connector/connection.py", line 722, in cmd_query
+[Thu Jul 02 10:36:06.477790 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]     result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+[Thu Jul 02 10:36:06.477829 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]   File "/usr/lib/python2.7/dist-packages/mysql/connector/connection.py", line 640, in _handle_result
+[Thu Jul 02 10:36:06.477843 2015] [:error] [pid 30156] [remote 127.0.0.1:3510]     raise errors.get_exception(packet)
+[Thu Jul 02 10:36:06.477855 2015] [:error] [pid 30156] [remote 127.0.0.1:3510] ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NULL
+[Thu Jul 02 10:36:06.477868 2015] [:error] [pid 30156] [remote 127.0.0.1:3510] \t\t\torder by waktu desc' at line 4
+[Thu Jul 02 10:36:06.477892 2015] [:error] [pid 30156] [remote 127.0.0.1:3510] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+[Thu Jul 02 10:42:25.413327 2015] [:error] [pid 30357] Not all parameters were used in the SQL statement
+[Thu Jul 02 10:42:25.415468 2015] [:error] [pid 30357] [remote 127.0.0.1:2998] Traceback (most recent call last):
+[Thu Jul 02 10:42:25.415491 2015] [:error] [pid 30357] [remote 127.0.0.1:2998]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 239, in process
+[Thu Jul 02 10:42:25.415500 2015] [:error] [pid 30357] [remote 127.0.0.1:2998]     return self.handle()
+[Thu Jul 02 10:42:25.415507 2015] [:error] [pid 30357] [remote 127.0.0.1:2998]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 230, in handle
+[Thu Jul 02 10:42:25.415515 2015] [:error] [pid 30357] [remote 127.0.0.1:2998]     return self._delegate(fn, self.fvars, args)
+[Thu Jul 02 10:42:25.415522 2015] [:error] [pid 30357] [remote 127.0.0.1:2998]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 420, in _delegate
+[Thu Jul 02 10:42:25.415530 2015] [:error] [pid 30357] [remote 127.0.0.1:2998]     return handle_class(cls)
+[Thu Jul 02 10:42:25.415537 2015] [:error] [pid 30357] [remote 127.0.0.1:2998]   File "/usr/local/lib/python2.7/dist-packages/web/application.py", line 396, in handle_class
+[Thu Jul 02 10:42:25.415545 2015] [:error] [pid 30357] [remote 127.0.0.1:2998]     return tocall(*args)
+[Thu Jul 02 10:42:25.415552 2015] [:error] [pid 30357] [remote 127.0.0.1:2998]   File "/var/www/sipadu_manajer/sync.py", line 15, in POST
+[Thu Jul 02 10:42:25.415559 2015] [:error] [pid 30357] [remote 127.0.0.1:2998]     return self.get_inbox()
+[Thu Jul 02 10:42:25.415566 2015] [:error] [pid 30357] [remote 127.0.0.1:2998]   File "/var/www/sipadu_manajer/sync.py", line 54, in get_inbox
+[Thu Jul 02 10:42:25.415574 2015] [:error] [pid 30357] [remote 127.0.0.1:2998]     result = model.get_query(query1,(last_msg,))
+[Thu Jul 02 10:42:25.415581 2015] [:error] [pid 30357] [remote 127.0.0.1:2998]   File "/var/www/sipadu_manajer/model.py", line 22, in get_query
+[Thu Jul 02 10:42:25.415588 2015] [:error] [pid 30357] [remote 127.0.0.1:2998]     c.execute(query,data)
+[Thu Jul 02 10:42:25.415596 2015] [:error] [pid 30357] [remote 127.0.0.1:2998]   File "/usr/lib/python2.7/dist-packages/mysql/connector/cursor.py", line 498, in execute
+[Thu Jul 02 10:42:25.415603 2015] [:error] [pid 30357] [remote 127.0.0.1:2998]     "Not all parameters were used in the SQL statement")
+[Thu Jul 02 10:42:25.415610 2015] [:error] [pid 30357] [remote 127.0.0.1:2998] ProgrammingError: Not all parameters were used in the SQL statement
+[Thu Jul 02 10:42:25.415623 2015] [:error] [pid 30357] [remote 127.0.0.1:2998] 
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
+Fatal Python error: PyEval_AcquireThread: NULL new thread state
